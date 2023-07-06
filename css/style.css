@@ -1,0 +1,113 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Open Sans", sans-serif
+}
+
+/*Toda pagina será estilizada**/
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 10;
+    border-radius: 10;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-image: url('índice.jpg');
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 0.95em;
+    text-align: center;
+    background-color: #ECECEC;
+    padding: 0px
+}
+
+/*.carousel-inner img {min-height: 100px;}*/
+
+.w3-theme-dark {
+    color: #d4b922 !important;
+}
+
+.w3-hover-theme:hover {
+    color: #fff !important;
+    background-color: #2294cb !important
+}
+
+.w3-hover-text-theme:hover {
+    color: #1ca6e8 !important
+}
+
+.w3-hover-border-theme:hover {
+    border-color: #35d8de !important
+}
+
+.portfolio {
+    background-color: #303e45 !important;
+
+    background-repeat: inherit;
+    /*round = volta*/
+    /*color: ;*/
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: top;
+    width: 24.99999%;
+}
+
+.embed-responsive-100x400px {
+    padding-bottom: 350px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.embed-responsive-100x400px {
+    padding-bottom: 350px;
+}
+
+.section {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
